@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#menu {
+  list-style: none;
+  height: 48px;
+}
+
+#menu li {
+  text-align: left;
+  color: #fff;
+}
+#menu li a {
+  text-decoration: none;
+  /* width: 110px; */
+  display: block;
+  padding: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1d1d1f;
+}
+#menu > li {
+  float: left;
+  position: relative;
+}
+#menu > li > ul.dropdown_menu {
+  position: absolute;
+  list-style: none;
+  display: none;
+  top: 48px;
+  left: 0;
+  width: 200px;
+}
+#menu > li:hover > a {
+  font-weight: 600;
+}
+#menu > li:hover > ul.dropdown_menu {
+  z-index: 100;
+  display: block;
+  background-color: #00a1ff;
+}
+
+ul.dropdown_menu > li > a {
+  color: white !important;
+}
+
+ul.dropdown_menu > li:hover {
+}
+
+ul.dropdown_menu > li:hover > a {
+  background-color: #0090e4 !important;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.arrow-down {
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #1d1d1f;
+}
+.arrow-right {
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid #fff;
+}
+
+.page-header {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.background-subiz {
+  width: 100%;
+  height: 100%;
+}
+
+.text__menu {
+  font-family: "Inter";
+  width: 110px !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1d1d1f;
+}
+
+.register_button {
+  width: 142px;
+  height: 64px;
+  background: #1e2698;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.text__button {
+  font-family: unset;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.text_header {
+  position: absolute;
+  top: 280px;
+  left: 60px;
+}
+
+.text__desc {
+  font-family: unset;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 85px;
+  /* or 177% */
+
+  text-transform: uppercase;
+
+  color: #1d1d1f;
+}
+
+.register_now_button {
+  position: absolute;
+  width: 231px;
+  height: 69px;
+  left: 60px;
+  top: 684px;
+
+  background: linear-gradient(94.63deg, #eeb625 4.13%, #fc5454 100%);
+  border: none;
+  border-radius: 12px;
+}
+
+.background_icon {
+  width: 80px;
+  height: 84px;
+  background: #19b600;
+  box-shadow: -1.48px 5.92px 10.36px rgba(0, 0, 0, 0.25);
+  border-radius: 14.8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

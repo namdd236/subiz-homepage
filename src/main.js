@@ -1,8 +1,10 @@
 import Vue from 'vue'
-import App from './App.vue'
+import HomePage from './home/home-page.js'
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  render() {
+    return <HomePage />
+  },
 }).$mount('#app')
