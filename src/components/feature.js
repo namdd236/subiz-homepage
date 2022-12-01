@@ -3,7 +3,7 @@ export default {
 
   render() {
     return (
-      <div style="width: 95%; height: 687px; background: #ECF3FF; border-radius: 38px; margin-top: 100px; display: flex; flex-direction: row; align-items: center;">
+      <div style="width: 95%; height: 687px; background: #ECF3FF; border-radius: 38px; display: flex; flex-direction: row; align-items: center;">
         <div style="display: flex; height: 92%; flex-direction: column; justify-content: space-evenly; align-items: left; flex: 1; padding-left: 70px; padding-top: 50px;">
           <div style="width: 440px; display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
             <div class="background_icon">
