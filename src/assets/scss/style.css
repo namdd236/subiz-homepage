@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: sans-serif;
 }
 
 #menu {
@@ -126,9 +126,10 @@ ul.dropdown_menu > li:hover > a {
 }
 
 .text__desc {
-  font-family: unset;
+  font-family: sans-serif;
   font-style: normal;
-  font-weight: 800;
+  
+  font-weight: bold;
   font-size: 48px;
   line-height: 85px;
   /* or 177% */
