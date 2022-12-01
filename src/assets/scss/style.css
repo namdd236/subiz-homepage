@@ -160,3 +160,11 @@ ul.dropdown_menu > li:hover > a {
   align-items: center;
   cursor: pointer;
 }
+
+.footer_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.3535px;
+  line-height: 20px;
+  color: #979797;
+}
