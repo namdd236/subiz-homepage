@@ -8,7 +8,7 @@ export default {
     return (
       <div class="" style="width: 100%; position: relative">
         <img
-          src={require("../assets/img/background-subiz.png")}
+          src={require("../assets/img/background_header.png")}
           class="background-subiz"
         />
         <div class="page-header">
@@ -117,7 +117,7 @@ export default {
               </div>
             </button>
             <button class="register_button">
-              <div class="text__button">Đăng kí</div>
+              <div class="text__button">Đăng ký</div>
             </button>
           </div>
         </div>
@@ -126,13 +126,13 @@ export default {
           <p class="text__desc">Tương tác hỗ trợ</p>
           <p class="text__desc">quản lý kênh bán hàng!</p>
           <p style="width: 550px; font-family: unset; font-style: normal; font-weight: 400; font-size: 25px; line-height: 30px; color: #6E6E73;">
-            Đồng hành cùng doanh nghiệp trên hành trình chinh phục khách hàng
+            Đồng hành cùng doanh nghiệp trên hành trình chinh phục khách hàng, phủ sóng thương hiêu, thúc đẩy doanh số vượt bậc!
           </p>
         </div>
         <div>
           <button class="register_now_button">
             <div style="font-family: unset; font-style: normal; font-weight: 700; font-size: 25px; line-height: 30px; color: #FFFFFF; cursor: pointer">
-              Đăng kí ngay
+              Đăng ký ngay
             </div>
           </button>
         </div>

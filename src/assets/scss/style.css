@@ -38,7 +38,7 @@
   width: 200px;
 }
 #menu > li:hover > a {
-  font-weight: 600;
+  font-weight: bold;
 }
 #menu > li:hover > ul.dropdown_menu {
   z-index: 100;
@@ -91,12 +91,13 @@ ul.dropdown_menu > li:hover > a {
 
 .text__menu {
   font-family: "Inter";
-  width: 110px !important;
+  width: 150px !important;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
   color: #1d1d1f;
+  text-transform: uppercase;
 }
 
 .register_button {
@@ -141,7 +142,7 @@ ul.dropdown_menu > li:hover > a {
   position: absolute;
   width: 231px;
   height: 69px;
-  left: 60px;
+  left: 120px;
   top: 684px;
 
   background: linear-gradient(94.63deg, #eeb625 4.13%, #fc5454 100%);
